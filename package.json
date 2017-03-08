@@ -1,0 +1,14 @@
+{
+  "name": "node_issues",
+  "version": "1.0.0",
+  "description": "count open github issues for software you rely on",
+  "main": "index.js",
+  "repository": "git@github.com:chee/node_issues",
+  "author": "chee <chee@snake.dog>",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "github": "^9.1.0",
+    "glob": "^7.1.1"
+  },
+	"bin": { "node_issues": "./index.js" }
+}
