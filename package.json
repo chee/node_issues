@@ -10,5 +10,10 @@
     "github": "^9.1.0",
     "glob": "^7.1.1"
   },
-	"bin": { "node_issues": "./index.js" }
+  "bin": {
+    "node_issues": "./index.js"
+  },
+  "devDependencies": {
+    "standard": "^10.0.2"
+  }
 }
